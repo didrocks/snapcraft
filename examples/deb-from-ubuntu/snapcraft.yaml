@@ -1,0 +1,13 @@
+name: sl-example
+version: 0.0.1
+summary: A simple command line example using sl from ubuntu
+description: This example illustrates the usage of a package taken from ubuntu and put in a snap.
+
+apps:
+  sl:
+    command: usr/games/sl
+
+parts:
+  sl-package:
+    plugin: nil
+    stage-packages: [sl]
