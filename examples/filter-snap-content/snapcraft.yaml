@@ -1,0 +1,19 @@
+name: sl-light-example
+version: 0.0.1
+summary: A simple command line example using sl from ubuntu, with optimized snap size
+description: This example illustrates the usage of a package taken from ubuntu and put in a snap where we only ship
+ the necessary files.
+
+apps:
+  sl:
+    command: usr/games/sl
+  sl-h:
+    command: usr/games/sl-h
+
+parts:
+  sl-package:
+    plugin: nil
+    stage-packages: [sl]
+    snap:
+      - usr/games/sl
+      - usr/games/sl-h
