@@ -43,6 +43,6 @@ snap: [usr/games/sl*]
 
 If you look at the package content in `snap/` directory, you may find that shipping the man pages and LS are files that are unused is necessary. You can
 
-If you are all new to Ubuntu Core and snapcraft, please hop on our [20 minutes developer guided tour](https://developer.ubuntu.com/ubuntu-core/latest/get-started/developer) to get started!
+If you are all new to Ubuntu Core and snapcraft, please hop on our [20 minutes developer guided tour](in-progress) to get started!
 
 Also, feel free to refer to other [snapcraft examples](../README.md) we have available for you!
