@@ -8,23 +8,28 @@ The uncompressed snap file is now 72K instead of 268K in the previous example (a
 
 Finally, this example show how to export 2 commands wrapping `sl` and `sl-h`.
 
+## Notions
+
+* Filter staged content to reduce snap size.
+* Export more than one command to the system.
+
 ## Install and use it:
 
 ### Install from the store:
 ```sh
-$ sudo snappy install sl-light-example
+sudo snappy install sl-light-example
 ```
 
 ### Using it:
 
 Type on the command line:
 ```sh
-$ sl-light-example.sl
+sl-light-example.sl
 ```
 
 or:
 ```sh
-$ sl-light-example.sl-h
+sl-light-example.sl-h
 ```
 
 And enjoy the beautiful animations!

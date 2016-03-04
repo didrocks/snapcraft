@@ -5,6 +5,12 @@ This snap illustrates the usage of a package taken from ubuntu and put in a snap
 functionality to download and copy the whole package content (and its dependencies not present in Ubuntu Core) to the
 resulting snap. The `sl` command is wrapped and corresponds to the package functionality.
 
+## Notions:
+
+* Import a deb package and its dependencies from the ubuntu distribution.
+* Export one command to the system.
+* nil plugin.
+
 ## Install and use it:
 
 ### Install from the store:
