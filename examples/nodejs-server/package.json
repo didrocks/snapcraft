@@ -1,0 +1,13 @@
+{
+  "name": "webchat-example",
+  "version": "0.0.1",
+  "description": "A simple nodejs server based webchat",
+  "license": "GPL-3.0",
+  "author": "Sergio Schvezov <sergio.schvezov@canonical.com>",
+  "private": true,
+  "bin": "./webchat.js",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.7"
+  }
+}

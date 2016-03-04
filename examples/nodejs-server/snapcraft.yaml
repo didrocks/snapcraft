@@ -1,0 +1,21 @@
+name: nodejs-server-example
+version: 0.0.1
+summary: A simple nodejs server based webchat
+description: This example illustrates how to build a nodejs simple server.
+icon: icon.png
+
+apps:
+  webchat:
+    command: bin/webchat-example
+    daemon: simple
+    slots: [listener]
+
+slots:
+  listener:
+    interface: old-security
+    caps: [network-listener]
+
+parts:
+  webchat:
+    plugin: nodejs
+    source: .
