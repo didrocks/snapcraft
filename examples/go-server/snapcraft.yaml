@@ -1,0 +1,22 @@
+name: go-webserver-example
+version: 0.0.1
+summary: A simple go server example
+description: This example illustrates the usage of building a go server from a subdirectory
+
+apps:
+  goserver:
+    command: bin/template
+    daemon: simple
+    slots: [listener]
+
+slots:
+  listener:
+    type: old-security
+    caps: [network-listener]
+
+parts:
+  goserver:
+    plugin: go
+    source: https://github.com/golang/example.git
+    source-type: git
+    source-subdir: template # -> I would expect it to do a go get github.com/golang/example/template
