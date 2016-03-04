@@ -59,4 +59,4 @@ informations.
 
 If you are all new to Ubuntu Core and snapcraft, please hop on our [20 minutes developer guided tour](in-progress) to get started!
 
-Also, feel free to refer to other [snapcraft examples](../README.md) we have available for you!
+Also, feel free to refer to other [snapcraft examples](../) we have available for you!
