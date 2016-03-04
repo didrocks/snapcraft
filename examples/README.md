@@ -15,7 +15,7 @@ tackling one or two main snapcraft or snappy concepts for getting you started ea
  * [Importing a package from ubuntu](deb-from-ubuntu)
   * Import a deb package and its dependencies from the ubuntu distribution.
   * Export one command to the system.
-  * nil plugin.
+  * Plugin **nil**.
  * [Filtering the snap staged content to only expose some files in your snap](filter-snap-content)
   * Filter staged content to reduce snap size.
   * Export more than one command to the system.
