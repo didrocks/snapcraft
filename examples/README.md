@@ -19,6 +19,12 @@ tackling one or two main snapcraft or snappy concepts for getting you started ea
 * [Filtering the snap staged content to only expose some files in your snap](filter-snap-content)
  * Filter staged content to reduce snap size.
  * Export more than one command to the system.
+* [A simple go webserver](go-server)
+ * Packaging a go application.
+ * Exposing it as a daemon and get access to its logs.
+ * Getting the source code trough an external repository.
+ * Getting access to listening to the network for incoming connection.
+ * Plugin **go**.
 * [A simple nodejs server based webchat](nodejs-server)
  * Packaging a nodejs application.
  * Exposing it as a daemon and get access to its logs.
