@@ -39,7 +39,7 @@ Thinks to note on this snap:
 The go server will start at system boot and stop on shutdown.
 * We are getting access to an external git repository to branch the source code using `source: <url>`. Note that we
 may have to specify which VCS is in use when automatic detection can't determine which one to use. We can as well
-specify which subdirectories are interesting to us.
+specify which subdirectories are interesting to us and even branch if supported by the VCS.
 * We are asking access to the *network-listener* interface, getting the daemon being able to listen to incoming network
 connection. This is done in 2 steps:
  * We define a `listener` slot, requesting access to the network-listener capability:
