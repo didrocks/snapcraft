@@ -51,6 +51,8 @@ If you look at the package content in `snap/` directory, you may find that we ar
 aren't used. You can see how you can easily filter the files you ship from your parts
 in [this examples](../filter-snap-content/).
 
+Do not hesitate to check `snapcraft help nil` and `snapcraft help plugins` for more general informations.
+
 If you are all new to Ubuntu Core and snapcraft, please hop on our [20 minutes developer guided tour](in-progress) to get started!
 
 Also, feel free to refer to other [snapcraft examples](../README.md) we have available for you!

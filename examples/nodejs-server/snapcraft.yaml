@@ -12,7 +12,7 @@ apps:
 
 slots:
   listener:
-    interface: old-security
+    type: old-security
     caps: [network-listener]
 
 parts:

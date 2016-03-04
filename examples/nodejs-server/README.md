@@ -1,7 +1,7 @@
 # A simple nodejs server based webchat
 
 ## Goal of this snap:
-This snap illustrates how to snap nodejs application as an app service. It's using the interface system to have access
+This snap illustrates how to snap a nodejs application as an app service. It's using the interface system to have access
 to incoming network connection on its dedicated port.
 
 ## Notions:
@@ -20,7 +20,7 @@ sudo snappy install nodejs-server-example
 
 ### Using it:
 
-The nodejs is daemonized when started. Point your browser to `http://<your-device-ip>:3000/` and start chatting!
+The nodejs app is daemonized when started. Point your browser to `http://<your-device-ip>:3000/` and start chatting!
 
 You can check the daemon logs with:
 ```sh
@@ -46,6 +46,8 @@ connection. This is done in 2 steps:
  * We are giving access to this slot to our `webchat` application by defining `slots: [listener]`
 
 ## Further reading
+
+Do not hesitate to check `snapcraft help nodejs` and `snapcraft help plugins` for more general informations.
 
 If you are all new to Ubuntu Core and snapcraft, please hop on our [20 minutes developer guided tour](in-progress) to get started!
 
